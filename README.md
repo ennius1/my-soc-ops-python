@@ -1,12 +1,38 @@
-# Soc Ops
+# 🎯 Soc Ops
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+> **Social Bingo for in-person mixers** — find people who match the squares and get 5 in a row!
+
+Built with **FastAPI + HTMX** · Python 3.13+ · No JavaScript framework required
+
+---
+
+## 🚀 Quick Start
+
+```bash
+uv sync                                              # install deps
+uv run pytest                                        # verify tests pass
+uv run uvicorn app.main:app --reload --port 8000     # start dev server
+```
+
+Then open **http://localhost:8000** in your browser.
+
+---
+
+## ✅ Development Checklist
+
+> Complete these steps before starting any feature work.
+
+- [ ] Python 3.13+ and `uv` installed (`python --version`, `uv --version`)
+- [ ] Dependencies synced (`uv sync`)
+- [ ] All tests green (`uv run pytest`)
+- [ ] Linter clean (`uv run ruff check .`)
+- [ ] Dev server running at http://localhost:8000
 
 ---
 
 ## 📚 Lab Guide
 
-| Part | Title |
+| Part | Topic |
 |------|-------|
 | [**00**](https://copilot-dev-days.github.io/agent-lab-python/docs/step.html?step=00-overview) | Overview & Checklist |
 | [**01**](https://copilot-dev-days.github.io/agent-lab-python/docs/step.html?step=01-setup) | Setup & Context Engineering |
@@ -14,10 +40,4 @@ Social Bingo game for in-person mixers. Find people who match the questions and 
 | [**03**](https://copilot-dev-days.github.io/agent-lab-python/docs/step.html?step=03-quiz-master) | Custom Quiz Master |
 | [**04**](https://copilot-dev-days.github.io/agent-lab-python/docs/step.html?step=04-multi-agent) | Multi-Agent Development |
 
-> 📝 Lab guides are also available in the [`workshop/`](workshop/) folder for offline reading.
-
----
-
-## 🚀 Getting Started
-
-Head to **[Part 00: Overview](https://copilot-dev-days.github.io/agent-lab-python/step.html?step=00-overview)** for prerequisites and setup instructions.
+> 📝 Offline guides available in [`workshop/`](workshop/)
